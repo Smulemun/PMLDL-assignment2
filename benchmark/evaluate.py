@@ -15,7 +15,7 @@ NUM_MOVIES = 1682
 BATCH_SIZE = 64
 
 num_user_features = 24
-num_movie_features = 19
+num_movie_features = 20
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
